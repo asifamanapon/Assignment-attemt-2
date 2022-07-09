@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), #3551b5), url(photo/donation4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    padding: 10%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+#header {
+    color: orange;
+    font-size: 110px;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    position: relative;
+
+}
+
+.button::after {
+    content: '';
+    background: #ff3d00;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: 0.5s;
+}
+
+.button:hover::after {
+    width: 100%;
+}
+
+.normal {
+    margin-top: 60px;
+
+    margin-right: 4px;
+    text-align: center;
+    padding: 2px;
+}
+
+
+.box-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    color: #ffffff;
+
+
+
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    background: rgb(255, 0, 0);
+    margin: 0 10px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 50px gray;
+    cursor: pointer;
+
+
+}
+
+.content {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.content form input {
+    flex: 1;
+    border: orange, 10%;
+    padding: 0 20px;
+    font-size: 18px;
+
+}
+
+.content h1 {
+    margin-right: 10px;
+
+}
+
+.content form button {
+    background-image: linear-gradient(orange, tomato);
+    padding: 6px 20px 2px;
+    border: 10px;
+    border-radius: 6px;
+    margin-bottom: 2px;
+    cursor: pointer;
+
+}
+
+#exception {
+    background-color: blue;
+
+
+
+}
+
+.back-video {
+    position: butt;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100vh;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+
+}
+
+@media(min-aspect-ratio:16/9) {
+    .back-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-aspect-ratio:16/9) {
+    .back-video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.header {}
+
+#text1 {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 166, 0, 0.748), rgb(255, 0, 0));
+}
+
+#button2 {
+    margin: 2 10px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.whole-container {
+    display: flex;
+    padding: 5px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.container-two {
+    margin-top: 80px;
+    display: flex;
+    margin-bottom: 100px;
+    font-size: larger;
+    font-weight: 400;
+    text-align: left;
+
+    padding-right: 50px;
+}
+
+#text-insert {
+
+    margin-left: 43%;
+    margin-top: 6%;
+}
+
+.container-body2 {
+    margin-top: -100px;
+    margin-right: 10px;
+    margin-left: -10px;
+}
+
+.whole2 {
+    display: flex;
+    margin-left: 90px;
+    margin-bottom: 100px;
+    font-size: large;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.data {
+    font-size: large;
+    text-align: left;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 25px;
+}
+
+.data2 {
+    font-size: large;
+    text-align: left;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 15%;
+    padding: 0px;
+}
+
+#box-one {
+    background-color: rgb(253, 9, 46);
+}
+
+#box-two {
+    background-color: rgb(255, 142, 4);
+}
+
+#box-three {
+    margin-top: 20px;
+    background-color: rgb(10, 54, 250);
+}
+
+.donation-boxes {
+    display: inline-block;
+    margin-bottom: 40px;
+    text-align: justify;
+    font-size: medium;
+    width: 30%;
+    margin-left: 1%;
+    margin-right: 2%;
+    margin-top: 40px;
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px darkgrey;
+}
+
+.bg01 {
+    text-align: center;
+
+}
+
+.box-bottom {
+    font-size: medium;
+    width: 40%;
+    margin-top: 40px;
+    margin-left: 31%;
+    margin-right: 10%;
+    margin-bottom: 40px;
+    background-image: linear-gradient(black, blue);
+    border-radius: 10px;
+    padding: 65px;
+    box-shadow: 3px 3px rgb(87, 82, 83), -0.5em 0 .4em;
+}
+
+#last-era {
+    font-size: small;
+    color: grey;
+}
+
+.footer-on {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 2%;
+}
+
+.text-footer {
+    font-size: x-large;
+    margin-top: 0;
+}
+
+.text-footer-bottom {
+    font-size: small;
+    font-weight: 100;
+}
+
+.tk {
+    margin-left: 41%;
+}
+
+.nonstop {
+    margin: 1%;
+    margin-left: 44%;
+}
